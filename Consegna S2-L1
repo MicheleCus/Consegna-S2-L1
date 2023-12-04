@@ -5,7 +5,7 @@ successivi l'entrata senza doverne verificare la sicurezza.
 Il secondo firewall è un firewall di tipo waf, ovvero un firewall che per definizione è 
 progettato specificatamente per le applicazioni web (Web Application Firewall), come possiamo
 notare è applicato a due server, uno SMPT e uno HTTP.
-Il terzo firewall invece è un firewall IPS, ovvero un firewall che previene le intrusioni e in 
-tempo reale può intraprendere azioni attive per evitare l'intrusione, questo tipo di firewall 
-è consigliato dove sono presenti NAS e o Server che sono un ramo particolarmente sensibile 
-della rete in quanto svolgono spesso un ruolo di archiviazione di dati importanti.
+Il terzo firewall invece è un firewall IDS, ovvero un firewall che quando rileva un'intrusione 
+avvisa il sitema ma non blocca il passaggio di pacchetti creando un buon bilanciamento tra 
+sicurezza e accessibilità, questo tipo di firewall è consigliato dove sono presenti NAS e o Server
+che sono allo stesso tempo un ramo particolarmente sensibile della rete ma necessitano accesibilità.
