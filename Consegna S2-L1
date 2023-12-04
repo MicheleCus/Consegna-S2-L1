@@ -1,0 +1,11 @@
+Nella figura allegata è presente il layout di un progetto di rete protetto da diversi firewall.
+Il primo firewall è quello perimetrale ed è di tipo dinamico o statefull, questo tipo di firewall 
+tiene traccia delle connessioni in entrata e uscita, in modo tale da permettere a pacchetti 
+successivi l'entrata senza doverne verificare la sicurezza.
+Il secondo firewall è un firewall di tipo waf, ovvero un firewall che per definizione è 
+progettato specificatamente per le applicazioni web (Web Application Firewall), come possiamo
+notare è applicato a due server, uno SMPT e uno HTTP.
+Il terzo firewall invece è un firewall IPS, ovvero un firewall che previene le intrusioni e in 
+tempo reale può intraprendere azioni attive per evitare l'intrusione, questo tipo di firewall 
+è consigliato dove sono presenti NAS e o Server che sono un ramo particolarmente sensibile 
+della rete in quanto svolgono spesso un ruolo di archiviazione di dati importanti.
